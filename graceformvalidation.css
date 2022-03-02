@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+          box-sizing: border-box;
+          font-family: 'Open Sans', sans-serif;
+}
+.body {
+          margin: 0;
+          padding: 0;
+          display: flex;
+}
+h5{
+    font-family: sans-serif;
+    font-weight: 900;
+    color:#a6d608;
+}
+#outerdiv {
+          width: 50%;
+          margin: auto;
+          height: auto;
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          background-color: #dcdcdc;
+          border: 2px solid #dcdcdc;
+}
+#innerdiv {
+          width: 90%;
+          margin: auto;
+          height:auto;
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          background-color: #fff;
+          
+}
+form {
+          background-color: #fff;
+}
+.form-control {
+          display: flex;
+          width: 100%;
+          margin-bottom: 15px;
+          border-radius: 5px;
+          background-color: #f5f5f5;
+}
+i {
+          padding: 10px;
+          border-right: 1px solid #c0c0c0;
+          color: #c0c0c0;
+          min-width: 50px;
+          text-align: center;
+}
+.input-field {
+          width: 100%;
+          padding: 10px;
+          border: hidden;
+          outline:none;
+          font-size:12px;
+          background-color: #f5f5f5;
+}
+
+.input-field:focus {
+          border: 2px solid dodgerblue;
+          border-radius:4px;
+}
+#form-control-DOB{
+ width: 60%;
+ 
+ 
+}
+#userdd{
+ margin-right:4%;
+ width:90%;
+ 
+}
+#usermm{
+    margin-right:4%;
+    width:90%;
+    
+    
+}
+#useryyyy{
+    margin-right:4%;
+    width:90%;
+    
+}
+#form-control-gender {
+    width: 50%;   
+    font-size:12px;
+}
+#container1{
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-top:5%;
+  border-right: 1px solid #c0c0c0;
+  height:40px;
+}
+#form-control-gender input{
+ /* visibility: hidden; */
+}
+
+   
+#container2{
+ width: 50%;
+ box-sizing: border-box;
+ padding-left: 10%;
+ padding-top:5%;
+ height:40px;
+ 
+}
+#form-control-gender{
+ width:40%;
+ border-radius: 4px;
+ margin-left: 1%;
+}
+
+#form-control-payment i{
+ border:hidden;
+ padding:0;
+ margin-right:0;
+}
+#form-control-payment{
+    font-size:12px;
+    
+}
+#form-control-payment input{
+    font-size:12px;
+    margin-left: 0;
+    visibility: hidden;
+    
+}
+#payment1{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    border-right: 1px solid #c0c0c0;
+    
+}
+#payment2{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    
+}
+#form-contorl-cardcv{
+ width:50%;
+ margin-right: 2%;
+}
+#form-control-select{
+ width:50%;
+ border-radius: 4px;
+}
+#submitbtn{
+width: 50%;
+height: 50px;
+margin-right: 2%;
+font-weight: 900;
+border:1px solid #a6d608;
+background-color:#a6d608;
+}
+
+#cancelbtn{
+    width: 50%;
+    height: 50px; 
+    font-weight: 900;
+    border:1px solid red;
+    background-color:red;
+
+}
+.fieldContainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin: auto;
+}
+#genderh5{
+    margin-left:40%;
+}
+.mrmgft{
+    margin-right:2%;
+}
+.error{
+color:white;
+}

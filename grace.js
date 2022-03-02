@@ -65,7 +65,7 @@ let coursework = cswork + tests(80,80)
  //This is a return statement for fexam. The function however doesnt have a call back. 
  return fexam
  
- }
+ } 
  /**
   * 
   * 
@@ -79,5 +79,3 @@ let coursework = cswork + tests(80,80)
  console.log(fmark)
  
  }
- //The fnal function is being called but the termination operator was not put. 
- fnal()

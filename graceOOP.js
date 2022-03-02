@@ -63,7 +63,7 @@ console.log(thirdTree.windybehavior( ' is  dancing right mostly  when the wind b
 
 //A class of Aircraft with a template of the properties
 function Aircraft( name, model, functionality , capacity, color, manufacturedate, engine ){
-    this.name=name;//The name  property has been assigned the value  that will be passed inside the name parameter.
+this.name=name;//The name  property has been assigned the value  that will be passed inside the name parameter.
     this.model=model;//The  model property has been assigned the value  that will be passed inside the model parameter.
     this.functionality = functionality;//The functionality  property has been assigned the value that will be passed inside the functionality  parameter. 
     this.capacity = capacity;//The capacity property has been assigned the value that will be passed inside capacity parameter.

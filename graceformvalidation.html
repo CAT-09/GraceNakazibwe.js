@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="graceformvalidation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container" id="outerdiv">
+        <div class="container" id="innerdiv">
+
+            <form name="accountform" id="formid">
+                <h5>Account</h5>
+                <small class="error" id="errorsmall">Error Message</small>
+                <div class="form-control">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="usersname" class="input" placeholder="Full Name"
+                        id="username">
+
+                </div>
+                <small class="error" id="errorsmall2">Error Message</small>
+                <div class="form-control">
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="text" name="usersemail" class="input-field" placeholder="Email Address" id="useremail">
+                </div>
+                <small class="error" id="errorsmall4">Error Message</small>
+                <div class="form-control">
+                    <i class="fa fa-key icon"></i>
+                    <input type="password" class="input-field" name="userspassword" placeholder="Password"
+                        id="userpass">
+                </div>
+
+                <div class="fieldContainer">
+                    <h5 id="DOBh5">Date of Birth</h5>
+                    <h5 id="genderh5">Gender</h5>
+                </div>
+                <div class="fieldContainer ">
+                    <div class="form-control" id="form-control-DOB">
+                        <input type="number" class="input-field  " name="usersdd" placeholder="DD" id="userdd">
+                        <input type="number" class="input-field  " name="usersmm" placeholder="MM" id="usermm">
+                        <input type="number" class="input-field  " name="usersyyyy" placeholder="YYY" id="useryyyy">
+                    </div>
+                    <div class="form-control" id="form-control-gender">
+
+                        <span id="container1"><label for="gmale" id="malelabel">Male</label>
+                            <input type="radio" class="input-field" name="gender" value="Male" id="gmale"></span>
+                        <span id="container2"><label for="gfemale" id="femalelabel">Female</label>
+                            <input type="radio" class="input-field" name="gender" value="Female" id="gfemale">
+
+                    </div>
+
+                </div>
+                <small class="error" id="errorsmall3">Error Message</small>
+
+                <h5> Payment Details </h5>
+                <div class="form-control" id="form-control-payment">
+                    <div id="payment1">
+                        <i class="fa fa-cc-visa"></i>
+                        <label for="ccreditcard">Credit Card</label>
+                        <input type="radio" name="payment" value="Credit Card" id="ccreditcard">
+                    </div>
+                    <div id="payment2">
+                        <i class="fa fa-cc-paypal"></i>
+                        <label for="paypal">Paypal</label>
+                        <input type="radio" name="payment" value="Paypal" id="paypal">
+                    </div>
+                </div>
+
+
+                <div class="form-control">
+                    <i class="fa fa-credit-card"></i>
+                    <input type="text" class="input-field" name="cardnumber" class="input-field"
+                        placeholder="Card Number" id="usercardnumber">
+                </div>
+
+
+                <div class="fieldContainer">
+                    <div class="form-control" id="form-contorl-cardcv">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" name="cardCVC" class="input-field" placeholder="Card CVC" id="usercardCVC">
+                    </div>
+                    <div class="form-control" id="form-control-select">
+                        <select class="input-field" name="dates" id="dates">
+                            <option value="01Jan">01 Jan</option>
+                            <option value="02Jan">02 Jan</option>
+                            <option value="03Jan">03 Jan</option>
+                            <option value="04Jan">04 Jan</option>
+                            <option value="05Jan">05 Jan</option>
+                            <option value="06Jan">06 Jan</option>
+                            <option value="07Jan">07 Jan</option>
+                            <option value="08Jan">08 Jan</option>
+                            <option value="09Jan">09 Jan</option>
+                            <option value="10Jan">10 Jan</option>
+                            <option value="11Jan">11 Jan</option>
+                            <option value="12Jan">12 Jan</option>
+                            <option value="13Jan">13 Jan</option>
+                            <option value="14Jan">14 Jan</option>
+                            <option value="15Jan">15 Jan</option>
+                            <option value="16Jan">16 Jan</option>
+                            <option value="17Jan">17 Jan</option>
+                            <option value="18Jan">18 Jan</option>
+                            <option value="19Jan">19 Jan</option>
+
+                        </select>
+                        <select class="input-field" name="years" id="years">
+                            <option value="2015"> 2015</option>
+                            <option value="2016"> 2016</option>
+                            <option value="2017"> 2017</option>
+                            <option value="2018"> 2018</option>
+                            <option value="2019"> 2019</option>
+                            <option value="2020"> 2020</option>
+                            <option value="2021"> 2021</option>
+                            <option value="2022"> 2022</option>
+                            <option value="2023"> 2023</option>
+                            <option value="2024"> 2024</option>
+                            <option value="2025"> 2025</option>
+                            <option value="2026"> 2026</option>
+                            <option value="2027"> 2027</option>
+                            <option value="2028"> 2028</option>
+                            <option value="2029"> 2029</option>
+                            <option value="2030"> 2030</option>
+                            <option value="2031"> 2031</option>
+                            <option value="2032"> 2032</option>
+                            <option value="2032"> 2034/option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <input type="submit" name="submitbutton" value="Submit" id="submitbtn">
+
+                    <input type="reset" name="cancelbutton" value="Cancel" id="cancelbtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/graceformvalidation.js"></script>
+</body>
+
+</html>
